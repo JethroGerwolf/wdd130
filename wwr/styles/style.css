@@ -19,17 +19,17 @@ main section {
 
 #background {
     height: 725px;
-    background-color: #5FA8D3
+    background-color: #5FA8D3;
 }
 
 body {
     background-color: #5FA8D3;
 }
 header{
-    background-color: #5FA8D3;
+    background-color: #62b6cb;
 }
 nav a:hover{
-    background-color: #5FA8D3;
+    background-color: #62b6cb;
     color: #CAE9FF;
 }
 .home-title {
