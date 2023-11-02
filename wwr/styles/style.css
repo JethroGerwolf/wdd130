@@ -27,6 +27,9 @@ nav{
 #hero-msg h4 {
     color: white;
 }
+#hero-img{
+    width: 100%;
+}
 body {
     background-color: #5FA8D3;
     font-family: "Kablammo", Arial, Helvetica, sans-serif;
