@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accordion component</title>
+    <link rel="stylesheet" href="component_styles.css">
+</head>
+<body>
+    <h1>Hello World code</h1>
+    <button class="accordion">python</button>
+    <div class="panel">
+    <p>print ("Hello World")</p>
+    </div>
+
+    <button class="accordion">bash</button>
+    <div class="panel">
+    <p>echo "Hello World"</p>
+    </div>
+
+    <button class="accordion">HTML</button>
+    <div class="panel">
+    <p>&lt;h1&gt;Hello World&lt;/h1&gt;</p>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("active");
+
+            /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+            panel.style.display = "none";
+            } else {
+            panel.style.display = "block";
+            }
+        });
+        }
+    </script>
+</body>
+</html>
