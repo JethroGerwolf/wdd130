@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Kablammo&family=Playpen+Sans:wght@300&family=Sansita&display=swap');
+
+body{
+    margin: 0%;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 1fr 75px;
+    background-color: #EFD18B;
+}
+header img, .logo{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+header h1{
+    font-size: 4rem;
+    grid-column: 2/5;
+    grid-row: 1/2;
+    margin: auto;
+    color: #9EB33B;
+}
+
+nav{
+    grid-column: 6/11;
+    grid-row: 2/3;
+    display: flex;
+    line-height: 2.4em;
+    text-align: center;
+
+    
+}
+nav a {
+    margin: auto;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #9EB33B;
+    padding: 1.1rem;
+    font-family: Sansita, Helvetica, sans-serif;
+}
+nav a:hover{
+    color: #D9DAD3;
+    background-color: #FA9827;
+
+}
+main{
+    font-family: Sansita, Helvetica, sans-serif;
+    max-width: 57%;
+    margin: auto;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+}
+main p{
+    color: #EFD18B;
+    font-size: 1.55rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    text-align: center;
+}
+main img{
+    
+    margin: 50px auto;
+}
+.title_rescources{
+    font-size: 5rem;
+    color: #EFD18B;
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.mexican_cat{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.websites{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.websites a, .books a{
+    padding: 1rem;
+    text-decoration: none;
+    color: #EFD18B;
+    font-size: 2rem;
+}
+.websites a:hover, .books a:hover{
+    color: #FA9827;
+}
+.websites h2, .books h2{
+    padding: 2rem;
+    font-size: 3rem;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    color: #EFD18B;
+}
+.websites p, .books p{
+    margin-left: 2.5rem;
+    padding: 1rem;
+    text-align: left;
+}
+
+.cow_cat{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.books{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.how_we h1{
+    text-align: center;
+    color: #EFD18B;
+    font-size: 3rem;
+}
+
+.p_par1{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 10px;
+}
+.p_par1 p img{
+    float: left;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+}
+.p_par1 p{
+    font-size: 2rem;
+}
+.p_par2{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    padding: 10px;
+}
+.p_par2 p{
+    font-size: 2rem;
+}
+.p_par2 p img{
+    float: right;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+}
+.warning{
+    margin-top: 5rem;
+}
+.warning h1 {
+    padding-top: 5rem;
+}
+.warning_one{
+    float: right;
+}
+.warning_two{
+    float: left;
+}
+.family_photo{
+    height: 500px;
+    width: 80%;
+
+}
+footer{
+    background-color: #EFD18B;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px;
+}
+footer img{
+    height: 75px;
+    width: 75px;
+}
+.facebook{
+    grid-column: 1/2;
+    margin: auto;
+}
+.instagram{
+    grid-column: 2/3;
+    margin: auto;
+}
+.blogger{
+    grid-column: 3/4;
+    margin: auto;
+}
+footer p{
+    padding: 1rem;
+    grid-column: 10/13;
+    text-align: end;
+    padding-top: 4rem;
+}
