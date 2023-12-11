@@ -164,6 +164,7 @@ footer{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 100px;
+    font-family: Sansita, Helvetica, sans-serif;
 }
 footer img{
     height: 75px;
@@ -186,7 +187,7 @@ footer p{
     grid-column: 10/13;
     grid-row: 1/2;
     text-align: end;
-    padding-top: 4rem;
+    padding-top: 3.6rem;
 }
 .site_play{
     text-decoration: none;
