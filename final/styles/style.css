@@ -2,8 +2,10 @@
 
 body{
     margin: 0%;
+    font-family: Sansita, Helvetica, sans-serif;
 }
 header{
+    font-family: Sansita, Helvetica, sans-serif;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: 1fr 75px;
